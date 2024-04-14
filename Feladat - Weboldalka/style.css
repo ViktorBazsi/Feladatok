@@ -21,7 +21,7 @@ p:hover {
   font-weight: bold;
   font-size: x-large;
   font-family: monospace;
-  width: 80%
+  width: 80%;
 }
 .navi {
   color: rgb(255, 230, 0);
@@ -50,7 +50,7 @@ a:hover {
   font-size: xx-large;
   padding: 80px;
   text-align: center;
-  width:100%;
+  width: 100%;
   top: 0;
   z-index: 9999;
   font-family: monospace;
@@ -69,3 +69,16 @@ a:hover {
   left: 750px;
   padding: 20px;
 }
+.wiki:hover {
+  color: rgb(255, 0, 0);
+  font-family: monospace;
+  font-weight: bold;
+  font-size: x-large;
+  text-decoration: none;
+  background-color: rgb(255, 230,0);
+}
+.ds9 {
+  position: relative;
+  left: 300px;
+}
+
