@@ -9,6 +9,8 @@ p {
   font-weight: bold;
   font-size: larger;
   font-family: monospace;
+  text-align: justify;
+  line-height: 1.5;
 }
 p:hover {
   color: black;
@@ -19,6 +21,8 @@ p:hover {
 }
 .navi {
   color: rgb(255, 230, 0);
+  position: fixed;
+  text-align: right;
 }
 h1 {
   font-weight: bold;
@@ -42,10 +46,18 @@ a:hover {
   font-size: xx-large;
   padding: 20px;
   text-align: center;
-  position: fixed;
-  width: 100%;
+  width:100%;
   top: 0;
   z-index: 9999;
   font-family: monospace;
   line-height: 1.6;
 }
+.container {
+  position: relative;
+}
+.spock_2 {
+  position: relative;
+  top: 0px;
+  left: 30px;
+}
+
