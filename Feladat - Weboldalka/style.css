@@ -60,7 +60,7 @@ a:hover {
   position: relative;
 }
 .spock_2 {
-  position: absolute;
+  position: fixed;
   top: 0px;
   right: 30px;
 }
@@ -80,5 +80,9 @@ a:hover {
 .ds9 {
   position: relative;
   left: 300px;
+}
+.osp {
+  position: relative;
+  left: 500px;
 }
 
