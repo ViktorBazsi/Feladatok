@@ -25,7 +25,7 @@ nav {
     left: 5%; /* Adjust the left position to change the position of the overlay */
     width: 90%; /* Adjust the width to change the size of the overlay */
     height: 150%; /* Adjust the height to change the size of the overlay */
-    background-color: rgba(0, 0, 0, 0.25); /* Adjust the alpha value (last parameter) to change the transparency */
+    background-color: rgba(0, 0, 0, 0.75); /* Adjust the alpha value (last parameter) to change the transparency */
     border: 2px solid white; /* Add a 2px white border around the overlay */
   }
   .content {
