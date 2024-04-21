@@ -96,10 +96,15 @@ hr {
 #top {
   font-weight: lighter;
   font-style: italic;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
-th, td {
-    font-size: 88%;
-    line-height: 1.5;
-    vertical-align: top;
+h2 {
+  font-weight: lighter;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+th,
+td {
+  font-size: 88%;
+  line-height: 1.5;
+  vertical-align: top;
 }
