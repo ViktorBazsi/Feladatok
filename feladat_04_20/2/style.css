@@ -1,45 +1,50 @@
 .a_side,
-.s_side, .a_side_R, .a_side_R {
+.s_side,
+.a_side_R,
+.a_side_R {
   display: block;
 }
 body {
   margin-left: 250px;
   margin-right: 250px;
   padding: 20px;
-}
-h1 {
-    font-style: italic;
+  font-family: sans-serif;
+  overflow: auto;
 }
 .sidebar {
   height: 100%;
   width: 250px;
   position: fixed;
-  top: 75px;
-  left: 0;
+  top: 44px;
+  left: 50px;
   padding-top: 20px;
+  font-size: 15px;
 }
 .sidebar_R {
   height: 100%;
   width: 250px;
   position: fixed;
-  top: 75px;
+  top: 44px;
   right: 0;
   padding-top: 20px;
+  font-size: 15px;
 }
 .sidebar_R .a_side_R {
-  padding: 10px;
+  padding: 5px;
   text-decoration: none;
   font-size: 18px;
   display: block;
+  font-size: 15px;
 }
 .sidebar_R .a_side_R:hover {
-    text-decoration-line: underline;
-  }
+  text-decoration-line: underline;
+}
 .sidebar .a_side {
-  padding: 10px;
+  padding: 5px;
   text-decoration: none;
   font-size: 18px;
   display: block;
+  font-size: 15px;
 }
 .sidebar .a_side:hover {
   text-decoration-line: underline;
@@ -49,24 +54,52 @@ h1 {
   padding: 10px;
 }
 .h_side_R {
-    font-weight: bolder;
-    padding: 10px;
-  }
+  font-weight: bolder;
+  padding: 10px;
+}
 .h_side_general_R {
-    padding: 10px; 
+  padding: 10px;
 }
 .box {
-    height: 100%;
-    width: 300px;
-    position: absolute;
-    top: 85px;
-    right: 250px;
-    padding-top: 20px;
+  height: 100%;
+  width: 300px;
+  float: right;
+  right: 250px;
+  padding-top: 20px;
+  margin: 10px;
+  top: 0px;
 }
 .box_i {
-    border: 1px solid black;
-    padding:5px;
+  border: 1px solid black;
+  padding: 5px;
 }
-.plot, .intro {
-    margin-right: 300px;
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.custom-divider {
+  width: 70%;
+  margin-left: 10px;
+  border: none;
+  border-top: 1px solid rgba(181, 181, 181, 0.36);
+  justify-content: left;
+}
+.h_side_general_R {
+  padding: 5px;
+}
+hr {
+  border: none;
+  border-top: 1px solid rgba(181, 181, 181, 0.516);
+  justify-content: left;
+}
+#top {
+  font-weight: lighter;
+  font-style: italic;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+th, td {
+    font-size: 88%;
+    line-height: 1.5;
+    vertical-align: top;
 }
