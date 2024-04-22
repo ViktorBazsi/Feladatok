@@ -6,7 +6,7 @@ h1 {
 }
 .container {
   display: flex;
-  height: 1500px;
+  height: auto;
   width: auto;
   flex-wrap: wrap;
   justify-content: center;
