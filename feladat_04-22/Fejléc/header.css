@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    display: flex;
+    background-color: rgba(128, 128, 128, 0.559);
+    height: 70px;
+    width: auto;
+    margin: 50px;
+    justify-content: space-between;
+}
+.Bal, .Jobb {
+    height: 50px;
+    width: auto;
+    margin: 10px;
+}
+.button {
+    text-align: center;
+    align-content: center;
+    padding: 20px;
+}
+.Bal {
+    display: flex;
+    justify-content: flex-start;
+}
+.Jobb {
+    display: flex;
+    justify-content: flex-end;
+}
+img {
+    height: 50px;
+    width: 50px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    background-color: gray;
+    height: 60px;
+    width: auto;
+    padding: 20px;
+    border-radius: 30px;
+}

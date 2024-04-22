@@ -9,12 +9,12 @@ body {
 .box {
     background-color: gray;
     height: 100px;
-    width: 100px;
-    text-align: center;
-    align-content: center;
+    width: 100px; 
     margin: 10px;
     flex-grow: 1;
     font-weight: bold;
+    text-align: center;
+    align-content: center;
 }
 .shrink {
     flex-shrink: 0;
