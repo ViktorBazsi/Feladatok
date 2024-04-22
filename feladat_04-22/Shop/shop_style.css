@@ -1,0 +1,27 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+  text-align: center;
+}
+.container {
+  display: flex;
+  height: 1500px;
+  width: auto;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+.item_container {
+  border: 2px solid black;
+  text-align: center;
+  align-content: center;
+  height: 500px;
+  width: 300px;
+  margin: 20px;
+  padding: 20px;
+  box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.504);
+}
+p {
+  text-align: justify;
+}
