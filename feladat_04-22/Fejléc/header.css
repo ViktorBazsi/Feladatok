@@ -31,18 +31,30 @@ img {
     height: 50px;
     width: 50px;
 }
-a {
+img:hover {
+    height: 50px;
+    width: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 60px;
+}
+.pic_b {
+    text-align: center;
+    align-content: center;
+    padding: 20px;
+}
+.link {
     text-decoration: none;
     color: black;
 }
-a:hover {
+.link:hover {
     background-color: gray;
-    height: 60px;
+    height: 50px;
     width: auto;
     padding: 20px;
     border-radius: 30px;
 }
-a:active {
+.link:active {
     color: rgb(255, 0, 0);
     background-color: rgb(255, 255, 255);
     height: 60px;
