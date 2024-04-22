@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.flex_container {
+    display: flex;
+    height: 600px;
+    width: auto;
+}
+.box {
+    background-color: gray;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    align-content: center;
+    margin: 10px;
+    flex-grow: 1;
+    font-weight: bold;
+}
+.grow {
+    flex-grow: 2;
+}
+h1 {
+    text-align: center;
+    margin: 20px;
+}
